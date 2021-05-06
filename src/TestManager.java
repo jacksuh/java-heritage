@@ -9,5 +9,9 @@ public class TestManager {
         System.out.println(g1.getName());
         System.out.println(g1.getCpf());
         System.out.println(g1.getWage());
+
+        g1.setPassword(2222);
+        boolean logged = g1.authenticate(2222);
+        System.out.println(logged);
     }
 }
