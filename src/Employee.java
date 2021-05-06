@@ -13,10 +13,12 @@ public class Employee {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getCpf() {
+
         return cpf;
     }
 
@@ -31,4 +33,6 @@ public class Employee {
     public void setWage(double wage) {
         this.wage = wage;
     }
+
+
 }
