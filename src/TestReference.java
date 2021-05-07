@@ -7,7 +7,7 @@ public class TestReference {
         g1.setWage(5000.0);
 
 
-        Employee f = new Employee();
+        Employee f = new VideoEditor();
         f.setWage(2000.0);
 
         VideoEditor ev = new VideoEditor();
