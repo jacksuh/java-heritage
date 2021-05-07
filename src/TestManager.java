@@ -13,5 +13,7 @@ public class TestManager {
         g1.setPassword(2222);
         boolean logged = g1.authenticate(2222);
         System.out.println(logged);
+
+        System.out.println(g1.getBonus());
     }
 }
