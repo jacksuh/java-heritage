@@ -2,7 +2,7 @@ public class Employee {
 
     private String name;
     private String cpf;
-    protected double wage;
+    private double wage;
 
     public double getBonus() {
         return this.wage * 0.1;
